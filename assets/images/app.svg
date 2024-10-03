@@ -150,7 +150,7 @@
 		<line x1="5" y1="5" x2="405" y2="5"></line>
 	</symbol>
 	<symbol id="ConnectError" viewBox="0 0 489.6 489.6">
-		<a target="_blank" href="https://openspeedtest.com/FAQ.php?ref=NetworkError">
+		<a>
 			<g>
 				<g>
 					<path d="M179.6,235.6c-33.7,10.3-65.5,28.5-92.2,55.1l46.6,46.6c13.9-13.9,30.1-24.8,47.6-32.5L179.6,235.6z" />
