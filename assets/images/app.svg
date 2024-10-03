@@ -150,7 +150,7 @@
 		<line x1="5" y1="5" x2="405" y2="5"></line>
 	</symbol>
 	<symbol id="ConnectError" viewBox="0 0 489.6 489.6">
-		<a>
+		<g>
 			<g>
 				<g>
 					<path d="M179.6,235.6c-33.7,10.3-65.5,28.5-92.2,55.1l46.6,46.6c13.9-13.9,30.1-24.8,47.6-32.5L179.6,235.6z" />
@@ -165,7 +165,7 @@
 				</g>
 			</g>
 			<title>Network Error</title>
-		</a>
+		</g>
 	</symbol>
 	<symbol class="Your-IP" viewBox="0 0 300 299.12">
 		<text id="YourIP" transform="translate(140 228) scale(.8 .8)">SpeedTest by DRIXAN SpeedTest</text>
@@ -217,7 +217,7 @@
         d="M524.8 938.666667h-4.266667a439.893333 439.893333 0 0 1-313.173333-134.4 446.293333 446.293333 0 0 1-11.093333-597.333334 432.213333 432.213333 0 0 1 170.666666-116.906666 42.666667 42.666667 0 0 1 45.226667 9.386666 42.666667 42.666667 0 0 1 10.24 42.666667 358.4 358.4 0 0 0 82.773333 375.893333 361.386667 361.386667 0 0 0 376.746667 82.773334 42.666667 42.666667 0 0 1 54.186667 55.04A433.493333 433.493333 0 0 1 836.266667 810.666667a438.613333 438.613333 0 0 1-311.466667 128z"
       />
 		</symbol>
-		<a id="resultsData">
+		<g id="resultsData">
 			<svg class="Desktop" viewBox="0 0 586 346">
 				<title id="title1">HTML5 Network Performance Estimation Tool.</title>
 				<g id="UI-Desk">
@@ -394,5 +394,5 @@
 					<use class="Mobile" id="ipMob" xlink:href="#YourIP" x="11" y="49"></use>
 				</g>
 			</svg>
-		</a>
+		</g>
 	</svg>
