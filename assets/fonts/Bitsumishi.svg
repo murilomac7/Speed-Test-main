@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20201107 at Mon Oct  1 20:15:31 2001
+ By 
+(c) Levi 2001
+</metadata>
+<defs>
+<font id="Bitsumishi" horiz-adv-x="194" >
+  <font-face 
+    font-family="Bitsumishi"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="0 0 4 0 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    x-height="515"
+    cap-height="515"
+    bbox="-32 -143 803 800"
+    underline-thickness="20"
+    underline-position="-143"
+    unicode-range="U+0020-007C"
+  />
+<missing-glyph horiz-adv-x="500" 
+d="M63 0v800h375v-800h-375zM125 63h250v675h-250v-675z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="500" 
+d="M63 0v800h375v-800h-375zM125 63h250v675h-250v-675z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="500" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="500" 
+ />
+    <glyph glyph-name="exclam" unicode="!" 
+d="M144 200h-144v315h144v-315zM144 0h-144v120h144v-120z" />
+    <glyph glyph-name="quotedbl" unicode="&#x22;" horiz-adv-x="265" 
+d="M249 514l-58 -261h-52v261h110zM110 514l-58 -261h-52v261h110z" />
+    <glyph glyph-name="numbersign" unicode="#" horiz-adv-x="304" 
+d="M515 134h-135v-134h-76v134h-94v-134h-76v134h-134v76h134v94h-134v76h134v135h76v-135h94v135h76v-135h135v-76h-135v-94h135v-76zM304 210v94h-94v-94h94z" />
+    <glyph glyph-name="dollar" unicode="$" horiz-adv-x="664" 
+d="M614 159q0 -65 -39 -111q-42 -48 -106 -48h-101v-89h-122v89h-221v120h444q25 0 25 39t-25 39h-324q-64 0 -105 48q-40 45 -40 110t40.5 112t104.5 47h101v88h122v-88h221v-120h-444q-25 0 -25 -39q0 -38 25 -38h324q64 0 106 -48q39 -46 39 -111z" />
+    <glyph glyph-name="percent" unicode="%" horiz-adv-x="525" 
+d="M192 395h-143v120h143v-120zM475 515l-355 -515h-120l355 515h120zM425 0h-144v120h144v-120z" />
+    <glyph glyph-name="ampersand" unicode="&#x26;" horiz-adv-x="603" 
+d="M553 142q0 -58 -35 -98q-40 -44 -108 -44h-73v-91h-121v91h-71q-69 0 -109 44q-36 40 -36 97q0 80 63 120q-54 41 -54 113q0 58 36 97q40 44 108 44h63v89h121v-89h63q68 0 108 -45q36 -40 36 -98v-17h-118q0 40 -26 40h-247q-25 0 -25 -39t25 -39h236v-119h-244
+q-26 0 -26 -39t26 -39h265q24 0 24 39h119v-17z" />
+    <glyph glyph-name="quotesingle" unicode="'" 
+d="M144 514l-59 -261h-85v261h144z" />
+    <glyph glyph-name="parenleft" unicode="(" horiz-adv-x="273" 
+d="M223 -119l-55 -1q-70 -1 -119 45.5t-49 117.5v429q0 70 49 116.5t119 46.5h55v-120h-55q-48 0 -48 -43v-429q0 -43 48 -43h55v-119z" />
+    <glyph glyph-name="parenright" unicode=")" horiz-adv-x="273" 
+d="M223 43q0 -71 -49 -117.5t-119 -45.5l-55 1v119h55q48 0 48 43v429q0 43 -48 43h-55v120h55q70 0 119 -46.5t49 -116.5v-429z" />
+    <glyph glyph-name="asterisk" unicode="*" horiz-adv-x="276" 
+d="M226 308l-40 -41l-74 74l-72 -74l-40 41l70 71h-66v58h80v78h58v-78h80v-58h-66z" />
+    <glyph glyph-name="plus" unicode="+" horiz-adv-x="504" 
+d="M454 197h-168v-167h-120v167h-166v121h166v166h120v-166h168v-121z" />
+    <glyph glyph-name="comma" unicode="," 
+d="M144 120l-59 -261h-85v261h144z" />
+    <glyph glyph-name="hyphen" unicode="-" horiz-adv-x="503" 
+d="M453 197h-453v121h453v-121z" />
+    <glyph glyph-name="hyphen" unicode="&#x2010;" horiz-adv-x="503" 
+d="M453 197h-453v121h453v-121z" />
+    <glyph glyph-name="period" unicode="." 
+d="M144 0h-144v120h144v-120z" />
+    <glyph glyph-name="slash" unicode="/" horiz-adv-x="525" 
+d="M475 515l-355 -515h-120l355 515h120z" />
+    <glyph glyph-name="zero" unicode="0" horiz-adv-x="552" 
+d="M502 163q0 -70 -48.5 -116.5t-118.5 -46.5h-167q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h167q70 0 118.5 -46.5t48.5 -116.5v-189zM382 163v189q0 43 -47 43h-167q-48 0 -48 -43v-189q0 -43 48 -43h167q47 0 47 43z" />
+    <glyph glyph-name="one" unicode="1" horiz-adv-x="258" 
+d="M208 0h-120v395h-116v120h236v-515z" />
+    <glyph glyph-name="two" unicode="2" horiz-adv-x="594" 
+d="M544 356q0 -65 -39 -110q-42 -48 -106 -48h-137q-58 0 -84 -12q-37 -18 -45 -66h387v-120h-519l-1 61q-4 257 262 257h137q26 0 26 39q0 38 -26 38h-374v120h374q64 0 106 -48q39 -46 39 -111z" />
+    <glyph glyph-name="three" unicode="3" horiz-adv-x="604" 
+d="M492 261q63 -39 63 -119q0 -58 -37 -98q-40 -44 -108 -44h-265q-68 0 -108 44q-37 40 -37 98v17h119q0 -39 26 -39h265q26 0 26 39t-26 39h-245v119h235q26 0 26 39t-26 39h-245q-26 0 -26 -40h-119v17q0 58 36 98q40 45 109 45h245q69 0 109 -44q36 -40 36 -97
+q0 -73 -53 -113z" />
+    <glyph glyph-name="four" unicode="4" horiz-adv-x="563" 
+d="M541 104h-83v-104h-121v104h-337l1 117l295 294h162v-291h83v-120zM337 224v176l-186 -176h186z" />
+    <glyph glyph-name="five" unicode="5" horiz-adv-x="553" 
+d="M503 163q0 -70 -49 -116.5t-119 -46.5h-167q-70 0 -119 46.5t-49 116.5h120q0 -43 48 -43h167q48 0 48 43v25q0 42 -48 42h-335v285h474v-120h-354v-45h215q70 0 119 -46t49 -116v-25z" />
+    <glyph glyph-name="six" unicode="6" horiz-adv-x="553" 
+d="M503 163q0 -70 -49 -116.5t-119 -46.5h-167q-70 0 -119 46.5t-49 116.5v188q0 70 49 117t119 47h285v-120h-285q-48 0 -48 -44v-7q23 6 48 6h167q70 0 119 -46t49 -116v-25zM383 163v25q0 42 -48 42h-167q-48 0 -48 -42v-25q0 -43 48 -43h167q48 0 48 43z" />
+    <glyph glyph-name="seven" unicode="7" horiz-adv-x="563" 
+d="M513 515l-2 -118l-295 -397h-162l307 395h-389v120h541z" />
+    <glyph glyph-name="eight" unicode="8" horiz-adv-x="604" 
+d="M491 261q63 -39 63 -119q0 -58 -36 -98q-41 -44 -109 -44h-264q-68 0 -109 44q-36 40 -36 98q0 80 62 119q-53 40 -53 112q0 58 36 98q40 44 108 44h247q68 0 108 -44q36 -40 36 -98q0 -72 -53 -112zM400 317q26 0 26 39t-26 39h-247q-25 0 -25 -39t25 -39h247zM409 120
+q26 0 26 39t-26 39h-264q-26 0 -26 -39t26 -39h264z" />
+    <glyph glyph-name="nine" unicode="9" horiz-adv-x="552" 
+d="M502 163q0 -70 -48.5 -116.5t-118.5 -46.5h-255v120h255q47 0 47 43v1h-214q-71 0 -119.5 46t-48.5 116v25q0 70 49 117t119 47h167q70 0 118.5 -47t48.5 -117v-188zM382 284v67q0 44 -47 44h-167q-48 0 -48 -44v-25q0 -42 48 -42h214z" />
+    <glyph glyph-name="colon" unicode=":" 
+d="M144 203h-144v120h144v-120zM144 0h-144v120h144v-120z" />
+    <glyph glyph-name="semicolon" unicode=";" 
+d="M144 203h-144v120h144v-120zM144 120l-59 -261h-85v261h144z" />
+    <glyph glyph-name="less" unicode="&#x3c;" horiz-adv-x="525" 
+d="M475 0h-120l-355 253l355 261h120l-355 -261z" />
+    <glyph glyph-name="equal" unicode="=" horiz-adv-x="503" 
+d="M453 283h-453v120h453v-120zM453 111h-453v120h453v-120z" />
+    <glyph glyph-name="greater" unicode="&#x3e;" horiz-adv-x="525" 
+d="M475 253l-355 -253h-120l355 253l-355 261h120z" />
+    <glyph glyph-name="question" unicode="?" horiz-adv-x="569" 
+d="M519 356q0 -65 -39 -110q-42 -48 -106 -48h-256v120h256q26 0 26 39q0 38 -26 38h-374v120h374q64 0 106 -48q39 -46 39 -111zM262 0h-144v120h144v-120z" />
+    <glyph glyph-name="at" unicode="@" horiz-adv-x="50" 
+ />
+    <glyph glyph-name="A" unicode="A" horiz-adv-x="681" 
+d="M631 0h-120v164h-316v120h316v72q0 39 -26 39h-340q-25 0 -25 -39v-356h-120v356q0 65 40.5 112t104.5 47h340q65 0 105.5 -47t40.5 -112v-356z" />
+    <glyph glyph-name="B" unicode="B" horiz-adv-x="681" 
+d="M581 261q63 -39 63 -119q0 -58 -37 -98q-40 -44 -108 -44h-499v515h490q68 0 108 -44q36 -40 36 -98q0 -72 -53 -112zM490 317q26 0 26 39t-26 39h-370v-78h370zM499 120q26 0 26 39t-26 39h-379v-78h379z" />
+    <glyph glyph-name="C" unicode="C" horiz-adv-x="616" 
+d="M566 0h-398q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h398v-120h-398q-48 0 -48 -43v-189q0 -43 48 -43h398v-120z" />
+    <glyph glyph-name="D" unicode="D" horiz-adv-x="614" 
+d="M564 163q0 -70 -48.5 -116.5t-118.5 -46.5h-397v325h120v-205h277q46 0 46 43v189q0 43 -46 43h-397v120h397q70 0 118.5 -46.5t48.5 -116.5v-189z" />
+    <glyph glyph-name="E" unicode="E" horiz-adv-x="599" 
+d="M549 395h-429v-77h401v-120h-401v-78h428v-120h-548v515h549v-120z" />
+    <glyph glyph-name="F" unicode="F" horiz-adv-x="586" 
+d="M549 395h-428v-77h401v-120h-401v-198h-121v515h549v-120z" />
+    <glyph glyph-name="G" unicode="G" horiz-adv-x="616" 
+d="M566 0h-398q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h398v-120h-398q-48 0 -48 -43v-189q0 -43 48 -43h278v78h-163v120h283v-318z" />
+    <glyph glyph-name="H" unicode="H" horiz-adv-x="599" 
+d="M549 0h-121v198h-308v-198h-120v515h120v-197h308v197h121v-515z" />
+    <glyph glyph-name="I" unicode="I" horiz-adv-x="170" 
+d="M120 0h-120v515h120v-515z" />
+    <glyph glyph-name="J" unicode="J" horiz-adv-x="457" 
+d="M407 163q0 -70 -49 -116.5t-119 -46.5h-255v120h255q47 0 47 43v352h121v-352z" />
+    <glyph glyph-name="K" unicode="K" horiz-adv-x="593" 
+d="M559 0h-164l-198 197h-77v-197h-120v515h120v-197h74l187 197h164l-246 -258z" />
+    <glyph glyph-name="L" unicode="L" horiz-adv-x="565" 
+d="M515 0h-515v515h120v-395h395v-120z" />
+    <glyph glyph-name="M" unicode="M" horiz-adv-x="718" 
+d="M668 0h-120v314l-214 -305l-214 305v-314h-120v515h126l208 -297l209 297h125v-515z" />
+    <glyph glyph-name="N" unicode="N" horiz-adv-x="599" 
+d="M549 0h-120l-309 347v-347h-120v515h120l309 -344v344h120v-515z" />
+    <glyph glyph-name="O" unicode="O" horiz-adv-x="688" 
+d="M638 163q0 -70 -49 -116.5t-119 -46.5h-302q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h302q70 0 119 -46.5t49 -116.5v-189zM518 163v189q0 43 -48 43h-302q-48 0 -48 -43v-189q0 -43 48 -43h302q48 0 48 43z" />
+    <glyph glyph-name="P" unicode="P" horiz-adv-x="694" 
+d="M644 341q0 -69 -38 -118q-41 -55 -108 -55h-378v-168h-120v515h498q67 0 108 -55q38 -50 38 -119zM524 341q0 54 -26 54h-378v-107h378q26 0 26 53z" />
+    <glyph glyph-name="Q" unicode="Q" horiz-adv-x="689" 
+d="M639 163q0 -70 -49 -116.5t-119 -46.5h-92v-77h-120v77h-91q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h303q70 0 119 -46.5t49 -116.5v-189zM519 163v189q0 43 -48 43h-303q-48 0 -48 -43v-189q0 -43 48 -43h91v78h120v-78h92q48 0 48 43z" />
+    <glyph glyph-name="R" unicode="R" horiz-adv-x="695" 
+d="M604 0h-164l-257 289h309q33 0 33 53t-33 53h-372v-395h-120v515h499q69 0 109 -54q37 -49 37 -119t-37 -119q-40 -54 -109 -54h-46z" />
+    <glyph glyph-name="S" unicode="S" horiz-adv-x="664" 
+d="M614 159q0 -65 -39 -111q-42 -48 -106 -48h-444v120h444q25 0 25 39t-25 39h-323q-64 0 -106 48q-40 45 -40 110t41 112t105 47h444v-120h-444q-25 0 -25 -39q0 -38 25 -38h323q64 0 106 -48q39 -46 39 -111z" />
+    <glyph glyph-name="T" unicode="T" horiz-adv-x="627" 
+d="M584 395h-232v-395h-120v395h-232v120h584v-120z" />
+    <glyph glyph-name="U" unicode="U" horiz-adv-x="682" 
+d="M632 160q0 -65 -41 -112t-105 -47h-340q-65 0 -105.5 47t-40.5 112v355h120v-355q0 -39 26 -39h340q25 0 25 39v355h121v-355z" />
+    <glyph glyph-name="V" unicode="V" horiz-adv-x="629" 
+d="M595 515l-262 -515h-102l-263 515h134l181 -352l178 352h134z" />
+    <glyph glyph-name="W" unicode="W" horiz-adv-x="835" 
+d="M801 515l-185 -515h-104l-119 333l-119 -333h-105l-185 515h128l109 -307l107 307h130l-2 -4l107 -303l111 307h127z" />
+    <glyph glyph-name="X" unicode="X" horiz-adv-x="606" 
+d="M572 0h-156l-138 166l-138 -166h-156l216 261l-210 254h156l132 -160l132 160h156l-210 -254z" />
+    <glyph glyph-name="Y" unicode="Y" horiz-adv-x="680" 
+d="M630 356q0 -65 -39 -110q-42 -48 -106 -48h-109v-198h-120v198h-111q-64 0 -105 48q-40 45 -40 110v159h120v-159q0 -38 25 -38h340q25 0 25 38v159h120v-159z" />
+    <glyph glyph-name="Z" unicode="Z" horiz-adv-x="601" 
+d="M551 0h-551v120l351 275h-351v120h541l-2 -118l-345 -277h357v-120z" />
+    <glyph glyph-name="bracketleft" unicode="[" horiz-adv-x="273" 
+d="M223 -119l-55 -1q-70 -1 -119 45.5t-49 117.5v429q0 70 49 116.5t119 46.5h55v-120h-55q-48 0 -48 -43v-429q0 -43 48 -43h55v-119z" />
+    <glyph glyph-name="backslash" unicode="\" horiz-adv-x="525" 
+d="M475 0h-120l-355 515h120z" />
+    <glyph glyph-name="bracketright" unicode="]" horiz-adv-x="273" 
+d="M223 43q0 -71 -49 -117.5t-119 -45.5l-55 1v119h55q48 0 48 43v429q0 43 -48 43h-55v120h55q70 0 119 -46.5t49 -116.5v-429z" />
+    <glyph glyph-name="underscore" unicode="_" horiz-adv-x="503" 
+d="M453 197h-453v121h453v-121z" />
+    <glyph glyph-name="a" unicode="a" horiz-adv-x="681" 
+d="M631 0h-120v164h-316v120h316v72q0 39 -26 39h-340q-25 0 -25 -39v-356h-120v356q0 65 40.5 112t104.5 47h340q65 0 105.5 -47t40.5 -112v-356z" />
+    <glyph glyph-name="b" unicode="b" horiz-adv-x="694" 
+d="M581 261q63 -39 63 -119q0 -58 -37 -98q-40 -44 -108 -44h-499v515h490q68 0 108 -44q36 -40 36 -98q0 -72 -53 -112zM490 317q26 0 26 39t-26 39h-370v-78h370zM499 120q26 0 26 39t-26 39h-379v-78h379z" />
+    <glyph glyph-name="c" unicode="c" horiz-adv-x="616" 
+d="M566 0h-398q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h398v-120h-398q-48 0 -48 -43v-189q0 -43 48 -43h398v-120z" />
+    <glyph glyph-name="d" unicode="d" horiz-adv-x="614" 
+d="M564 163q0 -70 -48.5 -116.5t-118.5 -46.5h-397v325h120v-205h277q46 0 46 43v189q0 43 -46 43h-397v120h397q70 0 118.5 -46.5t48.5 -116.5v-189z" />
+    <glyph glyph-name="e" unicode="e" horiz-adv-x="599" 
+d="M549 395h-429v-77h401v-120h-401v-78h428v-120h-548v515h549v-120z" />
+    <glyph glyph-name="f" unicode="f" horiz-adv-x="583" 
+d="M549 395h-428v-77h401v-120h-401v-198h-121v515h549v-120z" />
+    <glyph glyph-name="g" unicode="g" horiz-adv-x="616" 
+d="M566 0h-398q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h398v-120h-398q-48 0 -48 -43v-189q0 -43 48 -43h278v78h-163v120h283v-318z" />
+    <glyph glyph-name="h" unicode="h" horiz-adv-x="684" 
+d="M634 0h-122v198h-392v-198h-120v515h120v-197h392v197h122v-515z" />
+    <glyph glyph-name="i" unicode="i" horiz-adv-x="170" 
+d="M120 0h-120v515h120v-515z" />
+    <glyph glyph-name="j" unicode="j" horiz-adv-x="473" 
+d="M423 163q0 -70 -49 -116.5t-119 -46.5h-255v120h255q47 0 47 43v352h121v-352z" />
+    <glyph glyph-name="k" unicode="k" horiz-adv-x="624" 
+d="M604 0h-164l-257 257l239 258h164l-241 -258zM120 0h-120v515h120v-515z" />
+    <glyph glyph-name="l" unicode="l" horiz-adv-x="565" 
+d="M515 0h-515v515h120v-395h395v-120z" />
+    <glyph glyph-name="m" unicode="m" horiz-adv-x="718" 
+d="M668 0h-120v314l-214 -305l-214 305v-314h-120v515h126l208 -297l209 297h125v-515z" />
+    <glyph glyph-name="n" unicode="n" horiz-adv-x="599" 
+d="M549 0h-120l-309 347v-347h-120v515h120l309 -344v344h120v-515z" />
+    <glyph glyph-name="o" unicode="o" horiz-adv-x="688" 
+d="M638 163q0 -70 -49 -116.5t-119 -46.5h-302q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h302q70 0 119 -46.5t49 -116.5v-189zM518 163v189q0 43 -48 43h-302q-48 0 -48 -43v-189q0 -43 48 -43h302q48 0 48 43z" />
+    <glyph glyph-name="p" unicode="p" horiz-adv-x="694" 
+d="M644 341q0 -69 -38 -118q-41 -55 -108 -55h-378v-168h-120v515h498q67 0 108 -55q38 -50 38 -119zM524 341q0 54 -26 54h-378v-107h378q26 0 26 53z" />
+    <glyph glyph-name="q" unicode="q" horiz-adv-x="689" 
+d="M639 163q0 -70 -49 -116.5t-119 -46.5h-92v-77h-120v77h-91q-70 0 -119 46.5t-49 116.5v189q0 70 49 116.5t119 46.5h303q70 0 119 -46.5t49 -116.5v-189zM519 163v189q0 43 -48 43h-303q-48 0 -48 -43v-189q0 -43 48 -43h91v78h120v-78h92q48 0 48 43z" />
+    <glyph glyph-name="r" unicode="r" horiz-adv-x="695" 
+d="M604 0h-164l-257 289h309q33 0 33 53t-33 53h-372v-395h-120v515h499q69 0 109 -54q37 -49 37 -119t-37 -119q-40 -54 -109 -54h-46z" />
+    <glyph glyph-name="s" unicode="s" horiz-adv-x="664" 
+d="M614 159q0 -65 -39 -111q-42 -48 -106 -48h-444v120h444q25 0 25 39t-25 39h-323q-64 0 -106 48q-40 45 -40 110t41 112t105 47h444v-120h-444q-25 0 -25 -39q0 -38 25 -38h323q64 0 106 -48q39 -46 39 -111z" />
+    <glyph glyph-name="t" unicode="t" horiz-adv-x="620" 
+d="M570 395h-232v-395h-120v395h-232v120h584v-120z" />
+    <glyph glyph-name="u" unicode="u" horiz-adv-x="682" 
+d="M632 160q0 -65 -41 -112t-105 -47h-340q-65 0 -105.5 47t-40.5 112v355h120v-355q0 -39 26 -39h340q25 0 25 39v355h121v-355z" />
+    <glyph glyph-name="v" unicode="v" horiz-adv-x="635" 
+d="M599 515l-262 -515h-102l-263 515h134l181 -352l178 352h134z" />
+    <glyph glyph-name="w" unicode="w" horiz-adv-x="826" 
+d="M803 515l-185 -515h-104l-119 333l-119 -333h-105l-185 515h128l109 -307l107 307h130l-2 -4l107 -303l111 307h127z" />
+    <glyph glyph-name="x" unicode="x" horiz-adv-x="597" 
+d="M574 0h-156l-138 166l-138 -166h-156l216 261l-210 254h156l132 -160l132 160h156l-210 -254z" />
+    <glyph glyph-name="y" unicode="y" horiz-adv-x="680" 
+d="M630 356q0 -65 -39 -110q-42 -48 -106 -48h-109v-198h-120v198h-111q-64 0 -105 48q-40 45 -40 110v159h120v-159q0 -38 25 -38h340q25 0 25 38v159h120v-159z" />
+    <glyph glyph-name="z" unicode="z" horiz-adv-x="601" 
+d="M551 0h-551v120l351 275h-351v120h541l-2 -118l-345 -277h357v-120z" />
+    <glyph glyph-name="bar" unicode="|" horiz-adv-x="171" 
+d="M121 -143h-121v800h121v-800z" />
+  </font>
+</defs></svg>
