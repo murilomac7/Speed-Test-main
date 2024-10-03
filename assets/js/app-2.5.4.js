@@ -224,6 +224,22 @@ window.onload = function() {
         Graphelement.appendChild(Self.polygon);
       }
     }
+    function restartTest() {
+      // Reset any global or test-specific variables if needed
+      downloadSpeed = 0;
+      uploadSpeed = 0;
+      dataUsedfordl = 0;
+      dataUsedforul = 0;
+      stop = 0;
+      Status = "Idle"; // Set a status to indicate restart
+  
+      console.log("Restarting the test in 3 seconds...");
+  
+      // Restart the test after 3 seconds (or adjust the delay)
+      setTimeout(function() {
+          OpenSpeedTest.Start(); // Rerun the test
+      }, 3000);
+    }
     function calcPoints() {
       if (Self.values.length > 1) {
         var points = "0," + Self.height + " ";
@@ -935,7 +951,7 @@ window.onload = function() {
           if (downloadTimeing >= dlDuration && ProG == "done") {
             if (SelectTest) {
               Show.GaugeProgresstoZero(currentSpeed, "SendR");
-              Show.showStatus("SpeedTest done");
+              Show.showStatus("CONCLUÍDO");
               Show.Symbol(2);
             } else {
               Show.GaugeProgresstoZero(currentSpeed, "Upload");
@@ -984,7 +1000,7 @@ window.onload = function() {
             Show.uploadResult(uploadSpeed);
             Show.GaugeProgresstoZero(currentSpeed, "SendR");
             SendData = undefined;
-            Show.showStatus("SpeedTest done");
+            Show.showStatus("CONCLUÍDO");
             Show.Symbol(2);
             Status = "busy";
             stop = 0;
@@ -996,7 +1012,7 @@ window.onload = function() {
           Status = "busy";
           clearInterval(Engine);
           var dummyElement = document.createElement("div");
-          dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com/FAQ.php?ref=NetworkError" style="cursor: pointer" target="_blank"></a>';
+          dummyElement.innerHTML = '<g></g>';
           var htmlAnchorElement = dummyElement.querySelector("a");
           Show.oDoLiveSpeed.el.textContent = "Network Error";
           var circleSVG = document.getElementById("oDoLiveSpeed");
@@ -1004,9 +1020,9 @@ window.onload = function() {
           circleSVG.innerHTML = dummyElement.innerHTML;
         }
         if (Status === "SendR") {
-          Show.showStatus("SpeedTest done");
+          Show.showStatus("CONCLUÍDO");
           var dummyElement = document.createElement("div");
-          dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
+          dummyElement.innerHTML = '<g></g>';
           var htmlAnchorElement = dummyElement.querySelector("a");
           Show.oDoLiveSpeed.el.textContent = ost;
           var circleSVG = document.getElementById("oDoLiveSpeed");
@@ -1025,6 +1041,7 @@ window.onload = function() {
             ServerConnect(3);
           }
           Status = "busy";
+          restartTest();
           clearInterval(Engine);
         }
       }, 100);
