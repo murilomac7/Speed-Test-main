@@ -72,7 +72,9 @@ window.onload = function() {
     this.UI_Mob = _("UI-Mob");
     this.oDoTopSpeed = _("oDoTopSpeed");
     this.startButtonMob = _("startButtonMob");
+    this.restartButtonMob = _("restartButtonMob");
     this.startButtonDesk = _("startButtonDesk");
+    this.restartButtonDesk = _("restartButtonDesk");
     this.intro_Desk = _("intro-Desk");
     this.intro_Mob = _("intro-Mob");
     this.loader = _("loading_app");
@@ -146,10 +148,24 @@ window.onload = function() {
     this.UI_Desk.fade("in", 1000);
     this.UI_Mob.fade("in", 1000, uiLoaded);
     function uiLoaded(argument) {
+      zeroParameters();
       Status = "Loaded";
       console.log("Developed by Vishnu. Email --\x3e me@vishnu.pro");
     }
   };
+  function zeroParameters(){
+      var downResult = _("downResult");
+      var upRestxt = _("upRestxt");
+      var pingResult = _("pingResult");
+      var jitterDesk = _("jitterDesk");
+      var pingMobres = _("pingMobres");
+
+      downResult.el.textContent = "---";
+      upRestxt.el.textContent = "---";
+      pingResult.el.textContent = "---";
+      jitterDesk.el.textContent = "---";
+      pingMobres.el.textContent = "---";
+  }
   openSpeedtestShow.prototype.Symbol = function(dir) {
     if (dir == 0) {
       this.downSymbolMob.el.style.display = "block";
@@ -158,6 +174,8 @@ window.onload = function() {
       this.upSymbolDesk.el.style.display = "none";
       this.logoSymbolDesk.el.style.display = "none";
       this.logoSymbolMob.el.style.display = "none";
+      this.restartButtonDesk.el.style.display = "none";
+      this.restartButtonMob.el.style.display = "none";
     }
     if (dir == 1) {
       this.downSymbolMob.el.style.display = "none";
@@ -166,6 +184,8 @@ window.onload = function() {
       this.upSymbolDesk.el.style.display = "block";
       this.logoSymbolDesk.el.style.display = "none";
       this.logoSymbolMob.el.style.display = "none";
+      this.restartButtonDesk.el.style.display = "none";
+      this.restartButtonMob.el.style.display = "none";
     }
     if (dir == 2) {
       this.downSymbolMob.el.style.display = "none";
@@ -174,6 +194,8 @@ window.onload = function() {
       this.upSymbolDesk.el.style.display = "none";
       this.logoSymbolDesk.el.style.display = "block";
       this.logoSymbolMob.el.style.display = "block";
+      this.restartButtonDesk.el.style.display = "block";
+      this.restartButtonMob.el.style.display = "block";
     }
   };
   openSpeedtestShow.prototype.Graph = function(speed, select) {
@@ -223,23 +245,7 @@ window.onload = function() {
       if (Self.values.length > 1) {
         Graphelement.appendChild(Self.polygon);
       }
-    }
-    function restartTest() {
-      // Reset any global or test-specific variables if needed
-      downloadSpeed = 0;
-      uploadSpeed = 0;
-      dataUsedfordl = 0;
-      dataUsedforul = 0;
-      stop = 0;
-      Status = "Idle"; // Set a status to indicate restart
-  
-      console.log("Restarting the test in 3 seconds...");
-  
-      // Restart the test after 3 seconds (or adjust the delay)
-      setTimeout(function() {
-          OpenSpeedTest.Start(); // Rerun the test
-      }, 3000);
-    }
+    }    
     function calcPoints() {
       if (Self.values.length > 1) {
         var points = "0," + Self.height + " ";
@@ -608,7 +614,9 @@ window.onload = function() {
     Get.addEvt(Show.settingsMob.el, "click", ShowIP);
     Get.addEvt(Show.settingsDesk.el, "click", ShowIP);
     Get.addEvt(Show.startButtonDesk.el, "click", runTasks);
+    Get.addEvt(Show.restartButtonDesk.el, "click", runTasks);
     Get.addEvt(Show.startButtonMob.el, "click", runTasks);
+    Get.addEvt(Show.restartButtonMob.el, "click", runTasks);
     Get.addEvt(document, "keypress", hiEnter);
     var addEvent = true;
     var getParams = function(url) {
@@ -819,7 +827,9 @@ window.onload = function() {
       Get.remEvt(Show.settingsMob.el, "click", ShowIP);
       Get.remEvt(Show.settingsDesk.el, "click", ShowIP);
       Get.remEvt(Show.startButtonDesk.el, "click", runTasks);
+      Get.remEvt(Show.restartButtonDesk.el, "click", runTasks);
       Get.remEvt(Show.startButtonMob.el, "click", runTasks);
+      Get.remEvt(Show.restartButtonMob.el, "click", runTasks);
       Get.remEvt(document, "keypress", hiEnter);
     }
     var requestIP = false;
@@ -1025,9 +1035,6 @@ window.onload = function() {
           dummyElement.innerHTML = '<g></g>';
           var htmlAnchorElement = dummyElement.querySelector("a");
           Show.oDoLiveSpeed.el.textContent = ost;
-          var circleSVG = document.getElementById("oDoLiveSpeed");
-          htmlAnchorElement.innerHTML = circleSVG.innerHTML;
-          circleSVG.innerHTML = dummyElement.innerHTML;
           if (location.hostname != myname.toLowerCase() + com) {
             saveTestData = "https://" + myname.toLowerCase() + com + "/results/show.php?" + "&d=" + downloadSpeed.toFixed(3) + "&u=" + uploadSpeed.toFixed(3) + "&p=" + pingEstimate + "&j=" + jitterEstimate + "&dd=" + (dataUsedfordl / 1048576).toFixed(3) + "&ud=" + (dataUsedforul / 1048576).toFixed(3) + "&ua=" + userAgentString;
             saveTestData = encodeURI(saveTestData);
@@ -1040,11 +1047,21 @@ window.onload = function() {
           } else {
             ServerConnect(3);
           }
-          Status = "busy";
-          restartTest();
+          Status = "busy";          
           clearInterval(Engine);
+          restartTest();         
         }
       }, 100);
+    }
+    function restartTest(){
+      downloadSpeed = 0;
+      uploadSpeed = 0;
+      dataUsedfordl = 0;
+      dataUsedforul = 0;
+      stop = 0;
+      Status = "Idle";  
+      console.log("Restarting parameters...");  
+      OpenSpeedTest.Start();
     }
     function downReq() {
       for (var i = 0; i < dlThreads; i++) {

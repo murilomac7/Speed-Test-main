@@ -146,6 +146,10 @@
 		<rect width="180" height="90" rx="10" ry="10" class="startButton" />
 		<text class="buttonTxt" x="90" y="60">Start</text>
 	</symbol>
+	<symbol id="replayButton" style="fill: #eaeaea" viewBox="0 0 191.255 191.255">
+		<rect width="200" height="90" rx="10" ry="10" class="startButton" />
+		<text class="buttonTxt" x="100" y="60">Restart</text>
+	</symbol>
 	<symbol id="introProgress" viewBox="0 0 409.31 10.48">
 		<line x1="5" y1="5" x2="405" y2="5"></line>
 	</symbol>
@@ -238,6 +242,9 @@
 					<use id="logoSymbolDesk" xlink:href="#logo" class="Desktop" x="125" y="60" width="100" height="100"></use>
 					<use id="ConnectErrorDesk" xlink:href="#ConnectError" class="ConnectError" x="135" y="107.8" width="32.21" height="41.62"></use>
 					<use class="oDo-Meter" xlink:href="#oDoMeter" x="10.28" y="36.11" width="273.94" height="245.39"></use>
+					<use id="restartButtonDesk" class="startButton" xlink:href="#replayButton" x="118" y="200" width="60.2" height="50.2">
+						<title id="title1">Click here to Run a Speed Test! Or Press "Enter"</title>
+					</use>
 					<use xlink:href="#progressBar" x="1" y="295" width="293.53" height="18.38"></use>
 					<use id="progressStatus-Desk" class="intro-Progress" xlink:href="#introProgress" x="29" y="295" width="234" height="21"></use>
 					<use xlink:href="#downloadRc1" x="335.05" y="50.28" width="67" height="16">
@@ -330,10 +337,13 @@
 			</svg>
 			<svg class="Mobile" viewBox="0 0 295.9 363.3">
 				<title id="title1">HTML5 Network Performance Estimation Tool.</title>
-				<g id="UI-Mob">
+				<g id="UI-Mob">					
 					<use id="mainGaugebg-Mob" class="main-Gaugebg" xlink:href="#mainGaugebg" x="11.18" y="12" width="273.94" height="245.39"></use>
 					<use id="mainGaugeBlue-Mob" class="main-GaugeBlue" xlink:href="#mainGaugeBlue" x="11.18" y="12" width="273.94" height="245.39"></use>
 					<use id="mainGaugeWhite-Mob" class="main-GaugeWhite" xlink:href="#mainGaugeWhite" x="11.18" y="12" width="273.94" height="245.39"></use>
+					<use id="restartButtonMob" class="startButton" xlink:href="#replayButton" x="118" y="250" width="60.2" height="50.2">
+						<title id="title1">Click here to run a speed!</title>
+					</use>
 					<use xlink:href="#resultCardMob" class="Cards" x="1" y="297.52" width="88.1" height="65.8">
 						<title id="title1">The download speed is how fast you can pull data from the server to you in the form of images, videos, text and more. Activities such as listening to music on Spotify, downloading large files or streaming videos on Netflix all require you to download data.</title>
 					</use>
@@ -347,7 +357,7 @@
 					<use id="downSymbolMob" xlink:href="#downSymbol" class="Mobile" x="134" y="73" width="32.21" height="41.62"></use>
 					<use id="logoSymbolMob" xlink:href="#logo" class="Mobile" x="120" y="30" width="112" height="112"></use>
 					<use id="ConnectErrorMob" xlink:href="#ConnectError" class="ConnectError" x="135.9" y="74.02" width="32.21" height="41.62"></use>
-					<use class="oDo-Meter" xlink:href="#oDoMeter" x="11.18" y="12" width="273.94" height="245.39"></use>
+					<use class="oDo-Meter" xlink:href="#oDoMeter" x="11.18" y="12" width="273.94" height="245.39"></use>	
 					<use xlink:href="#progressBar" x="1.9" y="272.08" width="293.53" height="18.38"></use>
 					<use id="progressStatus-Mob" class="intro-Progress" xlink:href="#introProgress" x="29" y="272" width="234.5" height="21.5"></use>
 					<use xlink:href="#downloadRc1" x="22.36" y="301.63" width="60" height="15">
