@@ -65,8 +65,12 @@ window.onload = function() {
     this.upRestxt = _("upRestxt");
     this.pingResult = _("pingResult");
     this.jitterDesk = _("jitterDesk");
+    this.addressDesk = _("addressDesk");
+    this.ispDesk = _("ispDesk");
     this.pingMobres = _("pingMobres");
     this.JitterResultMon = _("JitterResultMon");
+    this.addressResultMon = _("addressResultMon");
+    this.ispResultMon = _("ispResultMon");
     this.JitterResultms = _("JitterResultms");
     this.UI_Desk = _("UI-Desk");
     this.UI_Mob = _("UI-Mob");
@@ -961,7 +965,7 @@ window.onload = function() {
           if (downloadTimeing >= dlDuration && ProG == "done") {
             if (SelectTest) {
               Show.GaugeProgresstoZero(currentSpeed, "SendR");
-              Show.showStatus("CONCLUÍDO");
+              Show.showStatus("FINISHED");
               Show.Symbol(2);
             } else {
               Show.GaugeProgresstoZero(currentSpeed, "Upload");
@@ -1010,7 +1014,7 @@ window.onload = function() {
             Show.uploadResult(uploadSpeed);
             Show.GaugeProgresstoZero(currentSpeed, "SendR");
             SendData = undefined;
-            Show.showStatus("CONCLUÍDO");
+            Show.showStatus("FINISHED");
             Show.Symbol(2);
             Status = "busy";
             stop = 0;
@@ -1030,11 +1034,12 @@ window.onload = function() {
           circleSVG.innerHTML = dummyElement.innerHTML;
         }
         if (Status === "SendR") {
-          Show.showStatus("CONCLUÍDO");
+          Show.showStatus("FINISHED");
           var dummyElement = document.createElement("div");
           dummyElement.innerHTML = '<g></g>';
           var htmlAnchorElement = dummyElement.querySelector("a");
           Show.oDoLiveSpeed.el.textContent = ost;
+          Show.oDoLiveSpeed.el.classList.add('done-speed');
           if (location.hostname != myname.toLowerCase() + com) {
             saveTestData = "https://" + myname.toLowerCase() + com + "/results/show.php?" + "&d=" + downloadSpeed.toFixed(3) + "&u=" + uploadSpeed.toFixed(3) + "&p=" + pingEstimate + "&j=" + jitterEstimate + "&dd=" + (dataUsedfordl / 1048576).toFixed(3) + "&ud=" + (dataUsedforul / 1048576).toFixed(3) + "&ua=" + userAgentString;
             saveTestData = encodeURI(saveTestData);
@@ -1047,11 +1052,28 @@ window.onload = function() {
           } else {
             ServerConnect(3);
           }
+          getIp();
           Status = "busy";          
           clearInterval(Engine);
           restartTest();         
         }
       }, 100);
+    }
+    function getIp() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'https://f48844b8-af59-46ec-9aa8-d5270d526e9c-00-3d71chh85rwa2.picard.replit.dev/get-isp.php', true); //Mudar pro caminho do script no servidor
+      xhr.onload = function() {
+          if (xhr.status === 200) {
+            var json = JSON.parse(xhr.responseText)
+            Show.addressDesk.el.textContent = json.ip;
+            Show.ispDesk.el.textContent = json.isp;
+            Show.ispResultMon.el.textContent = json.isp;
+            Show.addressResultMon.el.textContent = json.ip;
+          } else {
+            console.error('Erro ao consultar o IP: ' + xhr.statusText);
+          }
+      };
+      xhr.send();
     }
     function restartTest(){
       downloadSpeed = 0;

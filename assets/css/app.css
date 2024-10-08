@@ -143,6 +143,10 @@ color: var(--main-color);
   text-anchor: middle;
 }
 
+.done-speed {
+  fill: var(--main-color) !important;
+}
+
 .oDoLive-Status {
   font-size: 10px;
   fill: #d2d1d2;
@@ -173,6 +177,12 @@ color: var(--main-color);
   font-family: Bitsumishi;
   font-weight: 500;
 }
+.rtext-bottom {
+  font-size: 10px;
+  fill: #333;
+  font-family: Bitsumishi;
+  font-weight: 500;
+}
 .rtextnum {
   font-size: 23px;
   fill: #201e1e;
@@ -182,6 +192,27 @@ color: var(--main-color);
 }
 .rtextmbms {
   font-size: 12px;
+  fill: #5f5f5f;
+  font-family: Bitsumishi;
+  font-weight: 500;
+  text-anchor: middle;
+}
+.rtextnumbottom {
+  font-size: 14px;
+  fill: #201e1e;
+  font-family: Bitsumishi;
+  font-weight: 500;
+  text-anchor: middle;
+}
+.rtextnumisp {
+  font-size: 8px;
+  fill: #5f5f5f;
+  font-family: Bitsumishi;
+  font-weight: 500;
+  text-anchor: start;
+}
+.rtextmbmsbottom {
+  font-size: 8px;
   fill: #5f5f5f;
   font-family: Bitsumishi;
   font-weight: 500;
@@ -200,6 +231,13 @@ color: var(--main-color);
   font-family: Bitsumishi;
   font-weight: 500;
   text-anchor: middle;
+}
+.ip-Mob {
+  font-size: 7px;
+  fill: #201e1e;
+  font-family: Bitsumishi;
+  font-weight: 500;
+  text-anchor: start;
 }
 .startButton {
   fill: var(--main-color);
@@ -244,6 +282,10 @@ color: var(--main-color);
 }
 .Startsettings:hover {
   opacity: 1;
+}
+
+.ip-font {
+  font-weight: 700;
 }
 
 .progressbg {
